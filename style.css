@@ -1,0 +1,123 @@
+@font-face {
+    font-family: bebakai;
+    src: url("./recursos/font/BebasKai.otf") format("opentype");
+    font-display: swap;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.img-logo {
+    width: 150px;
+}
+
+.presentacion {
+    background-image: url("./recursos/");
+}
+
+.color-redes {
+    background-color: #afc918;
+}
+
+.imagenDeFondo {
+    background-image: url("./recursos/foto\ fondo\ 1.png");
+    background-size: cover;
+    width: 100%;
+}
+
+.fondo-formulario {
+    background-image: url("./recursos/pie\ de\ pagina.png");
+    /* background-repeat: no-repeat; */
+}
+
+.fondo-texformulario {
+    background-color:  rgba(255, 255, 255, 0.5);
+    background-image: url("./recursos/foto\ fondo\ 1.png");
+}
+
+.inicio-presentacion {
+    background-color: #afc918;
+}
+
+.img-redimension {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.header__listamenu--activo {
+    font-weight: bold;
+}
+
+.margenDeParrafos {
+    margin-left: 250px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 1000px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.posicion-menu {
+    position: absolute;
+    top: 100px;
+}
+
+nav a {
+    margin-left: 4px;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+nav {
+    background-color: #afc918;
+}
+
+.color-subtitulo-contacto {
+    color: #afc918;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    margin-left: 800px;
+}
+
+.imagen-footer-direccion {
+    width: 290px;
+}
+
+.inicio-presentacion a {
+    margin-left: 4px;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+p,
+h2,
+h1,
+a,
+h3, div {
+    font-family: bebakai, sans-serif !important;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.box div {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+.img-horarios {
+   width: 800px;
+    height: 800px;
+    margin-left: 504px;
+    padding: 20px;
+}
