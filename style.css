@@ -3,7 +3,10 @@
     src: url("./recursos/font/BebasKai.otf") format("opentype");
     font-display: swap;
 }
-
+* {
+    margin: 0%;
+    padding: 0%;
+}
 a {
     color: black;
     text-decoration: none;
@@ -32,11 +35,6 @@ a {
     /* background-repeat: no-repeat; */
 }
 
-.fondo-texformulario {
-    background-color:  rgba(255, 255, 255, 0.5);
-    background-image: url("./recursos/foto\ fondo\ 1.png");
-}
-
 .inicio-presentacion {
     background-color: #afc918;
 }
@@ -56,8 +54,8 @@ a {
     margin-left: 250px;
     padding-left: 25px;
     padding-right: 25px;
-    width: 1000px;
-    height: 500px;
+    max-width: 1000px;
+    min-height: 500px;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -101,6 +99,10 @@ h3, div {
     font-family: bebakai, sans-serif !important;
 }
 
+a:hover {
+    text-decoration: underline black;
+}
+
 .box {
     display: flex;
     align-items: center;
@@ -121,3 +123,15 @@ h3, div {
     margin-left: 504px;
     padding: 20px;
 }
+/*MEDIA QUERY = DISPOSITIVOS MEDIANOS*/
+/*Dispositivos HASTA 768px son considerados medianos*/
+
+@media (max-width: 768px) {
+    .margenDeParrafos {
+       margin-left: 0;
+    }
+}
+
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+  }
